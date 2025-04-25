@@ -4,6 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.List;
 
 public class Flat {
     public WebDriver driver;
@@ -21,6 +26,7 @@ public class Flat {
     public boolean cbElevator;
     public String years;
     public boolean renovated;
+    public String renovatedYears;
     public int houseType;
     public int houseState;
     public int[] warmSystem;
@@ -46,7 +52,7 @@ public class Flat {
     public boolean cbAgreeToRules;
 
 
-    public Flat(WebDriver driver, String region, String district, String quartal, String street, String objNum, String apartNum, String rcNum, String areaSize, int roomCount, int floor, int houseHeight, boolean cbElevator, String years, boolean renovated, int houseType, int houseState, int[] warmSystem, int apartmentType, int apartmentIntendance, int[] windowsDirection, int[] specials, int houseEfficiency, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean cbDontShowInAds, boolean cbDontWantChat, int accountType, boolean cbAgreeToRules) {
+    public Flat(WebDriver driver, String region, String district, String quartal, String street, String objNum, String apartNum, String rcNum, String areaSize, int roomCount, int floor, int houseHeight, boolean cbElevator, String years, boolean renovated, String renovatedYears, int houseType, int houseState, int[] warmSystem, int apartmentType, int apartmentIntendance, int[] windowsDirection, int[] specials, int houseEfficiency, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean cbDontShowInAds, boolean cbDontWantChat, int accountType, boolean cbAgreeToRules) {
         this.driver = driver;
         this.region = region;
         this.district = district;
@@ -62,6 +68,7 @@ public class Flat {
         this.cbElevator = cbElevator;
         this.years = years;
         this.renovated = renovated;
+        this.renovatedYears = renovatedYears;
         this.houseType = houseType;
         this.houseState = houseState;
         this.warmSystem = warmSystem;
@@ -103,6 +110,166 @@ public class Flat {
         fillFloor();
         fillHouseHeight();
         fillCbElevator();
+        fillYears();
+        fillRenovated();
+        fillHouseType();
+        fillHouseState();
+        fillWarmSystem();
+        fillApartmentType();
+        fillWindowsDirections();
+        fillSpecials();
+
+        fillNotesLt();
+        fillNotesEn();
+        fillNotesRu();
+        fillPhotos();
+        fillVideo();
+        fillTour3d();
+        fillPrice();
+        fillPhoneNum();
+        fillEmail();
+        fillCbDontShowInAds();
+        fillCbDontWantChat();
+        fillAccountType();
+        fillAgreeToRules();
+    }
+
+    private void fillAgreeToRules() {
+        if (this.cbAgreeToRules) {
+            driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[57]/span[1]/div/div/label/span")).click();
+        }
+    }
+
+    private void fillAccountType() {
+        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[55]/div[1]/div[" + this.accountType + "]")).click();
+
+    }
+
+    private void fillCbDontWantChat() {
+        if (this.cbDontWantChat) {
+            driver.findElement(By.xpath("//label[starts-with(@for, 'cbdont_want_chat')]")).click();
+        }
+    }
+
+    private void fillCbDontShowInAds() {
+        if (this.cbDontShowInAds) {
+            driver.findElement(By.xpath("//label[starts-with(@for, 'cbdont_show_in_ads')]")).click();
+        }
+    }
+
+    private void fillEmail() {
+        driver.findElement(By.name("email")).sendKeys(this.email);
+    }
+
+    private void fillPhoneNum() {
+        driver.findElement(By.name("phone")).clear();
+        driver.findElement(By.name("phone")).sendKeys(this.phoneNum);
+    }
+
+    private void fillPrice() {
+        driver.findElement(By.id("priceField")).sendKeys(this.price);
+    }
+
+    private void fillTour3d() {
+        driver.findElement(By.name("tour_3d")).sendKeys(this.tour3d);
+    }
+
+    private void fillVideo() {
+        driver.findElement(By.name("Video")).sendKeys(this.video);
+    }
+
+    private void fillPhotos() {
+        StringBuilder filePaths = new StringBuilder();
+
+        for (String photo : this.photos) {
+            filePaths.append(photo).append("\n");
+        }
+
+        String filePathsToSend = filePaths.toString().trim();
+        WebElement fileInput = driver.findElement(By.xpath("//*[@id=\"uploadPhotoBtn\"]/input"));
+        fileInput.sendKeys(filePathsToSend);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));  // Wait for up to 20 seconds
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("upload-loader")));
+    }
+
+
+    private void fillNotesRu() {
+        driver.findElement(By.className("lang-ru-label")).click();
+        wait(500);
+        driver.findElement(By.name("notes_ru")).sendKeys(this.notes_ru);
+    }
+
+    private void fillNotesEn() {
+        driver.findElement(By.className("lang-en-label")).click();
+        wait(500);
+        driver.findElement(By.name("notes_en")).sendKeys(this.notes_en);
+    }
+
+    private void fillNotesLt() {
+        driver.findElement(By.name("notes_lt")).sendKeys(this.notes_lt);
+    }
+
+    private void fillSpecials() {
+        driver.findElements(By.className("input-style-change-object")).get(1).click();
+        List<WebElement> specialLabels = driver.findElements(By.xpath("//label[starts-with(@for, 'cb_SpecialFlat')]"));
+        for (int i = 0; i < this.specials.length; i++) {
+            int index = this.specials[i];
+            int adjustedIndex = index - 1;
+            try {
+                WebElement checkbox = specialLabels.get(adjustedIndex);
+                checkbox.click();
+            } catch (Exception e) {
+            }
+        }
+        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[37]/div/div[" + this.houseEfficiency + "]")).click();
+        if (interestedChange) {
+            driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[38]/div/div/div/label/span")).click();
+        }
+        if (auction) {
+            driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[39]/div/div/div/label/span")).click();
+        }
+    }
+
+    private void fillWindowsDirections() {
+        for (int i = 0; i < this.windowsDirection.length; i++) {
+        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[25]/div/div/div[1]/div[" + this.windowsDirection[i] + "]/label")).click();
+        }
+    }
+
+    private void fillApartmentType() {
+        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[22]/div/div[" + this.apartmentType + "]")).click();
+        if (this.apartmentType == 2) {
+            driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[23]/div/div[" + this.apartmentIntendance + "]")).click();
+        }
+    }
+
+    private void fillWarmSystem() {
+        for (int i = 0; i < this.warmSystem.length; i++) {
+            int index = this.warmSystem[i];
+            try {
+                driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[21]/div/div[" + index + "]/label")).click();
+            } catch (Exception e) {
+            }
+        }
+    }
+
+    private void fillHouseState() {
+        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[19]/div/div[" + this.houseState + "]"));
+    }
+
+    private void fillHouseType() {
+        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[18]/div/div[" + this.houseType + "]"));
+    }
+
+    private void fillRenovated() {
+        if (this.renovated) {
+            driver.findElement(By.className("cbrenovated_label")).click();
+            driver.findElement(By.id("FRenovatedYear")).sendKeys(this.renovatedYears);
+        }
+    }
+
+    private void fillYears() {
+        driver.findElement(By.name("FBuildYear")).sendKeys(this.years);
     }
 
     private void fillCbElevator() {

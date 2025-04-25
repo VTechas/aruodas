@@ -121,7 +121,7 @@ public class Plot {
 
     private void fillCbDontShowInAds() {
         if (this.cbDontShowInAds) {
-            driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[36]/span/label/span")).click();
+            driver.findElement(By.xpath("//label[starts-with(@for, 'cbdont_show_in_ads')]")).click();
         }
     }
 
