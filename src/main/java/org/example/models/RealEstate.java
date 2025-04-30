@@ -1,5 +1,6 @@
 package org.example.models;
 
+import org.example.Helper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -36,12 +37,11 @@ public class RealEstate {
     public boolean agreeToRules;
     public String[] specials;
 
-
     public RealEstate() {
     }
 
-    public RealEstate(WebDriver driver, String region, String district, String quartal, String street, String houseNum, boolean showHouseNum, String rcNum, boolean showRcNum, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean dontShowInAds, boolean dontWantChat, int accountType, boolean agreeToRules, String[] specials) {
-        this.driver = driver;
+    public RealEstate(String region, String district, String quartal, String street, String houseNum, boolean showHouseNum, String rcNum, boolean showRcNum, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean dontShowInAds, boolean dontWantChat, int accountType, boolean agreeToRules, String[] specials) {
+        this.driver = Helper.driver;
         this.region = region;
         this.district = district;
         this.quartal = quartal;
@@ -76,9 +76,17 @@ public class RealEstate {
 
     public void fillLocation() {
         fillRegion();
-        fillDistrict();
-        fillQuartal();
-        fillStreet();
+        if (this.region != null && !this.region.trim().isEmpty()) {
+            fillDistrict();
+
+            if (this.district != null && !this.district.trim().isEmpty()) {
+                fillQuartal();
+
+                if (this.street != null && !this.street.trim().isEmpty()) {
+                    fillStreet();
+                }
+            }
+        }
         fillHouseNum();
         fillShowHouseNum();
         fillRcNum();
@@ -136,30 +144,54 @@ public class RealEstate {
     }
 
     private void fillStreet() {
-        driver.findElement(By.xpath("//ul[@id='streets_1']/preceding-sibling::input[contains(@class, 'dropdown-input-value-title')]")).click();
+        if (this.street == null || this.street.trim().isEmpty()) return;
+
+        WebElement streetInput = driver.findElement(By.id("streetTitle"));
+        streetInput.click();
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//ul[contains(@id, 'streets') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")
+        ));
+
+        searchInput.sendKeys(this.street);
         wait(1000);
-        driver.findElement(By.xpath("//ul[contains(@id, 'streets') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")).sendKeys(this.street);
-        wait(1000);
-        driver.findElement(By.xpath("//ul[contains(@id, 'streets') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")).sendKeys(Keys.ENTER);
+        searchInput.sendKeys(Keys.ENTER);
     }
 
     private void fillQuartal() {
-        driver.findElement(By.xpath("//ul[@id='quartals_1']/preceding-sibling::input[contains(@class, 'dropdown-input-value-title')]")).click();
+        if (this.quartal == null || this.quartal.trim().isEmpty()) return;
+
+        WebElement quartalInput = driver.findElement(By.xpath("//input[contains(@class, 'dropdown-input-value-title') and @id='quartalTitle']"));
+        quartalInput.click();
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//ul[contains(@id, 'quartals') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")
+        ));
+
+        searchInput.sendKeys(this.quartal);
         wait(1000);
-        driver.findElement(By.xpath("//ul[contains(@id, 'quartals') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")).sendKeys(this.quartal);
-        wait(1000);
-        driver.findElement(By.xpath("//ul[contains(@id, 'quartals') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")).sendKeys(Keys.ENTER);
+        searchInput.sendKeys(Keys.ENTER);
     }
 
     private void fillDistrict() {
     }
 
     private void fillRegion() {
-        driver.findElement(By.xpath("//ul[@id='regionDropdown']/preceding-sibling::input[contains(@class, 'dropdown-input-value-title')]")).click();
+        if (this.region == null || this.region.trim().isEmpty()) return;
+
+        WebElement regionInput = driver.findElement(By.xpath("//input[contains(@class, 'dropdown-input-value-title') and @readonly]"));
+        regionInput.click();
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//ul[@id='regionDropdown']//input[contains(@class, 'dropdown-input-search-value')]")
+        ));
+
+        searchInput.sendKeys(this.region);
         wait(1000);
-        driver.findElement(By.xpath("//ul[@id='regionDropdown']//input[contains(@class, 'dropdown-input-search-value')]")).sendKeys(this.region);
-        wait(1000);
-        driver.findElement(By.xpath("//ul[@id='regionDropdown']//input[contains(@class, 'dropdown-input-search-value')]")).sendKeys(Keys.ENTER);
+        searchInput.sendKeys(Keys.ENTER);
     }
 
     private void fillAgreeToRules() {
@@ -170,7 +202,6 @@ public class RealEstate {
 
     private void fillAccountType() {
         driver.findElement(By.xpath("//div[@class='input-button' and @data-value='" + this.accountType + "']")).click();
-
     }
 
     private void fillDontWantChat() {
@@ -220,7 +251,6 @@ public class RealEstate {
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("upload-loader")));
     }
 
-
     private void fillNotesRu() {
         driver.findElement(By.className("lang-ru-label")).click();
         wait(500);
@@ -266,7 +296,4 @@ public class RealEstate {
                 .replace("ū", "u")
                 .replace("ž", "z");
     }
-
-
-
 }

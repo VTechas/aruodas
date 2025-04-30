@@ -1,6 +1,5 @@
 package org.example.models;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -15,16 +14,16 @@ public class Flat extends RealEstate{
     public String years;
     public boolean renovated;
     public String renovatedYears;
-    public int houseType;
-    public int houseState;
+    public String houseType;
+    public String houseState;
     public String[] warmSystem;
     public int apartmentType;
     public int apartmentIntendance;
     public int[] windowsDirection;
     public String houseEfficiency;
 
-    public Flat(WebDriver driver, String region, String district, String quartal, String street, String houseNum, boolean showHouseNum, String rcNum, boolean showRcNum, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean dontShowInAds, boolean dontWantChat, int accountType, boolean agreeToRules, String[] specials, String apartNum, String areaSize, int roomCount, int floor, int houseHeight, boolean cbElevator, String years, boolean renovated, String renovatedYears, int houseType, int houseState, String[] warmSystem, int apartmentType, int apartmentIntendance, int[] windowsDirection, String houseEfficiency) {
-        super(driver, region, district, quartal, street, houseNum, showHouseNum, rcNum, showRcNum, interestedChange, auction, notes_lt, notes_en, notes_ru, photos, video, tour3d, price, phoneNum, email, dontShowInAds, dontWantChat, accountType, agreeToRules, specials);
+    public Flat(String region, String district, String quartal, String street, String houseNum, boolean showHouseNum, String rcNum, boolean showRcNum, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean dontShowInAds, boolean dontWantChat, int accountType, boolean agreeToRules, String[] specials, String apartNum, String areaSize, int roomCount, int floor, int houseHeight, boolean cbElevator, String years, boolean renovated, String renovatedYears, String houseType, String houseState, String[] warmSystem, int apartmentType, int apartmentIntendance, int[] windowsDirection, String houseEfficiency) {
+        super(region, district, quartal, street, houseNum, showHouseNum, rcNum, showRcNum, interestedChange, auction, notes_lt, notes_en, notes_ru, photos, video, tour3d, price, phoneNum, email, dontShowInAds, dontWantChat, accountType, agreeToRules, specials);
         this.apartNum = apartNum;
         this.areaSize = areaSize;
         this.roomCount = roomCount;
@@ -96,11 +95,11 @@ public class Flat extends RealEstate{
     }
 
     private void fillHouseState() {
-        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[19]/div/div[" + this.houseState + "]"));
+        driver.findElement(By.xpath("//div[contains(@class,'input-button') and @data-value='" + this.houseState + "']")).click();
     }
 
     private void fillHouseType() {
-        driver.findElement(By.xpath("//*[@id=\"newObjectForm\"]/ul/li[18]/div/div[" + this.houseType + "]"));
+        driver.findElement(By.xpath("//div[contains(@class,'input-button') and @data-value='" + this.houseType + "']")).click();
     }
 
     private void fillRenovated() {
@@ -123,7 +122,6 @@ public class Flat extends RealEstate{
     private void fillHouseHeight() {
         driver.findElement(By.name("FHouseHeight")).sendKeys(String.valueOf(this.houseHeight));
     }
-
 
     private void fillFloor() {
         driver.findElement(By.name("FFloor")).sendKeys(String.valueOf(this.floor));
