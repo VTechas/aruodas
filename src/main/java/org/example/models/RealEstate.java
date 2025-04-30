@@ -201,6 +201,7 @@ public class RealEstate {
     }
 
     private void fillAccountType() {
+        if (this.accountType <= 0) return;
         driver.findElement(By.xpath("//div[@class='input-button' and @data-value='" + this.accountType + "']")).click();
     }
 
@@ -238,16 +239,26 @@ public class RealEstate {
     }
 
     private void fillPhotos() {
-        StringBuilder filePaths = new StringBuilder();
+        if (this.photos == null || this.photos.length == 0) {
+            return; //
+        }
 
+        StringBuilder filePaths = new StringBuilder();
         for (String photo : this.photos) {
-            filePaths.append(photo).append("\n");
+            if (photo != null && !photo.trim().isEmpty()) {
+                filePaths.append(photo).append("\n");
+            }
         }
 
         String filePathsToSend = filePaths.toString().trim();
+        if (filePathsToSend.isEmpty()) {
+            return; //
+        }
+
         WebElement fileInput = driver.findElement(By.xpath("//*[@id=\"uploadPhotoBtn\"]/input"));
         fileInput.sendKeys(filePathsToSend);
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));  // Wait for up to 20 seconds
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("upload-loader")));
     }
 

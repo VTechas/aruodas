@@ -31,11 +31,6 @@ public class PlotTests {
         driver.get("https://www.aruodas.lt/ideti-skelbima/?obj=11&offer_type=1");
     }
 
-    @AfterMethod
-    public void afterMethod() {
-        driver.navigate().refresh();
-    }
-
     @Test
     public void positiveTest() {
         Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
@@ -66,12 +61,9 @@ public class PlotTests {
                 "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
         p.fill();
         driver.findElement(By.id("submitFormButton")).click();
-
         WebElement errorElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("ErrorDiv")));
-
         String expected = "Patikrinkite, ar teisingai užpildėte laukus, pažymėtus raudonai";
         String actual = errorElement.getText().trim();
-
         Assert.assertEquals(actual, expected);
     }
 
@@ -87,9 +79,9 @@ public class PlotTests {
                 "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
         p.fill();
         driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
         String expected = "Užsakyti";
         String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
-
         Assert.assertEquals(actual, expected);
     }
 
@@ -105,9 +97,9 @@ public class PlotTests {
                 "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
         p.fill();
         driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
         String expected = "Užsakyti";
         String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
-
         Assert.assertEquals(actual, expected);
     }
 
@@ -123,9 +115,9 @@ public class PlotTests {
                 "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
         p.fill();
         driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
         String expected = "Užsakyti";
         String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
-
         Assert.assertEquals(actual, expected);
     }
 
@@ -141,9 +133,9 @@ public class PlotTests {
                 "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
         p.fill();
         driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
         String expected = "Užsakyti";
         String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
-
         Assert.assertEquals(actual, expected);
     }
 
@@ -159,9 +151,295 @@ public class PlotTests {
                 "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
         p.fill();
         driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
         String expected = "Užsakyti";
         String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
 
+    @Test
+    public void hideRcNumTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", false, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void notInterestedChangeTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, false,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void auctionAgreeTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                true, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankNotesLtTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankNotesEnTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankNotesRuTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankPhotoUploadTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{""},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankVideoTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankTour3dTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankPriceTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "",
+                "+37064610123", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Neteisinga kaina";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankPhoneNumTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "", "ThomasShelby@gmail.com", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankEmailTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "", true, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Nurodykite el. pašto adresą, kad vėliau galėtumėte redaguoti arba pašalinti skelbimą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void showInAdsTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", false, false,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void wantChatTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, true,
+                2, true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankAccountTypeTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false, 0 , true, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Prašome pasirinkti paskyros tipą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void blankAgreeToRulesTest() {
+        Plot p = new Plot("Vilnius", "Vilniaus m.", "Bajorai", "Paeglines sodu 5",
+                "15", true, "1234-1234-1234", true, true,
+                false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\15.png", "C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\16.png"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "452000",
+                "+37064610123", "ThomasShelby@gmail.com", true, false, 0 , false, new String[]{"Elektra", "Greta misko", "be pastatu" , "vanduo"},
+                "255",new String[]{"Namų valda", "Daugiabučių statyba", "Miškų ūkio"});
+        p.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//span[@class='error-arrow' and text()='Prašome sutikti su portalo taisyklėmis']"));
+        String expected = "Prašome sutikti su portalo taisyklėmis";
+        String actual = errorSpan.getText().trim();
         Assert.assertEquals(actual, expected);
     }
 
