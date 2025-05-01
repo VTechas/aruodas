@@ -146,33 +146,39 @@ public class RealEstate {
     private void fillStreet() {
         if (this.street == null || this.street.trim().isEmpty()) return;
 
-        WebElement streetInput = driver.findElement(By.id("streetTitle"));
-        streetInput.click();
+        try {
+            WebElement streetInput = driver.findElement(By.id("streetTitle"));
+            streetInput.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//ul[contains(@id, 'streets') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")
-        ));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                    By.xpath("//ul[contains(@id, 'streets') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")
+            ));
 
-        searchInput.sendKeys(this.street);
-        wait(1000);
-        searchInput.sendKeys(Keys.ENTER);
+            searchInput.sendKeys(this.street);
+            wait(1000);
+            searchInput.sendKeys(Keys.ENTER);
+
+        } catch (Exception e) {}
     }
 
     private void fillQuartal() {
         if (this.quartal == null || this.quartal.trim().isEmpty()) return;
 
-        WebElement quartalInput = driver.findElement(By.xpath("//input[contains(@class, 'dropdown-input-value-title') and @id='quartalTitle']"));
-        quartalInput.click();
+        try {
+            WebElement quartalInput = driver.findElement(By.xpath("//input[contains(@class, 'dropdown-input-value-title') and @id='quartalTitle']"));
+            quartalInput.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//ul[contains(@id, 'quartals') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")
-        ));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            WebElement searchInput = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                    By.xpath("//ul[contains(@id, 'quartals') and not(contains(@class,'hide'))]//input[contains(@class, 'dropdown-input-search-value')]")
+            ));
 
-        searchInput.sendKeys(this.quartal);
-        wait(1000);
-        searchInput.sendKeys(Keys.ENTER);
+            searchInput.sendKeys(this.quartal);
+            Thread.sleep(1000); // or wait for suggestions explicitly
+            searchInput.sendKeys(Keys.ENTER);
+
+        } catch (Exception e) {}
     }
 
     private void fillDistrict() {
