@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.Random;
 
 public class RealEstate {
     public WebDriver driver;
@@ -264,8 +265,10 @@ public class RealEstate {
         WebElement fileInput = driver.findElement(By.xpath("//*[@id=\"uploadPhotoBtn\"]/input"));
         fileInput.sendKeys(filePathsToSend);
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("upload-loader")));
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("upload-loader")));
+        } catch (Exception e) {}
     }
 
     private void fillNotesRu() {
@@ -312,5 +315,30 @@ public class RealEstate {
                 .replace("ų", "u")
                 .replace("ū", "u")
                 .replace("ž", "z");
+    }
+
+    public static String generateRandomLetters(int length) {
+
+        String symbols = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String text = "";
+
+        for (int i = 0; i < length; i++) {
+            text += symbols.charAt((int) (Math.random() * symbols.length()));
+        }
+        return text;
+    }
+
+    public static String generateRandomNumbers(int length) {
+        Random random = new Random();
+        StringBuilder number = new StringBuilder();
+
+        // First digit should not be 0
+        number.append(random.nextInt(9) + 1);
+
+        for (int i = 1; i < length; i++) {
+            number.append(random.nextInt(10));
+        }
+
+        return number.toString();
     }
 }
