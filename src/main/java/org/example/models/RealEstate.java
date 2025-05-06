@@ -341,4 +341,17 @@ public class RealEstate {
 
         return number.toString();
     }
+
+    public static String generateRandomSpecialChars(int length) {
+        String specialChars = "!#$%^&*()_+-=[]{}|;:',.<>/?";
+        StringBuilder result = new StringBuilder();
+        Random rand = new Random();
+
+        for (int i = 0; i < length; i++) {
+            int index = rand.nextInt(specialChars.length());
+            result.append(specialChars.charAt(index));
+        }
+
+        return result.toString();
+    }
 }
