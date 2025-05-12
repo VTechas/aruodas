@@ -13,9 +13,9 @@ public class Flat extends RealEstate {
     public String apartNum;
     public boolean showApartNum;
     public String areaSize;
-    public int roomCount;
-    public int floor;
-    public int houseHeight;
+    public String roomCount;
+    public String floor;
+    public String houseHeight;
     public boolean elevator;
     public String years;
     public boolean renovated;
@@ -28,7 +28,7 @@ public class Flat extends RealEstate {
     public String[] windowsDirection;
     public String houseEfficiency;
 
-    public Flat(String region, String district, String quartal, String street, String houseNum, boolean showHouseNum, String rcNum, boolean showRcNum, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean dontShowInAds, boolean dontWantChat, int accountType, boolean agreeToRules, String[] specials, String apartNum, boolean showApartNum, String areaSize, int roomCount, int floor, int houseHeight, boolean elevator, String years, boolean renovated, String renovatedYears, String houseType, String houseState, String[] warmSystem, String apartmentType, String apartmentIntendance, String[] windowsDirection, String houseEfficiency) {
+    public Flat(String region, String district, String quartal, String street, String houseNum, boolean showHouseNum, String rcNum, boolean showRcNum, boolean interestedChange, boolean auction, String notes_lt, String notes_en, String notes_ru, String[] photos, String video, String tour3d, String price, String phoneNum, String email, boolean dontShowInAds, boolean dontWantChat, int accountType, boolean agreeToRules, String[] specials, String apartNum, boolean showApartNum, String areaSize, String roomCount, String floor, String houseHeight, boolean elevator, String years, boolean renovated, String renovatedYears, String houseType, String houseState, String[] warmSystem, String apartmentType, String apartmentIntendance, String[] windowsDirection, String houseEfficiency) {
         super(region, district, quartal, street, houseNum, showHouseNum, rcNum, showRcNum, interestedChange, auction, notes_lt, notes_en, notes_ru, photos, video, tour3d, price, phoneNum, email, dontShowInAds, dontWantChat, accountType, agreeToRules, specials);
         this.apartNum = apartNum;
         this.showApartNum = showApartNum;
@@ -151,58 +151,74 @@ public class Flat extends RealEstate {
 
     private void fillHouseHeight() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        if (this.houseHeight <= 0) return;
-        int relativeHeightIndex = this.houseHeight - this.floor + 1;
+        if (this.houseHeight == null || this.houseHeight.trim().isEmpty()) return;
 
-        if (relativeHeightIndex < 1 || relativeHeightIndex > 9) {
-            WebElement houseHeightInput = driver.findElement(By.name("FHouseHeight"));
-            houseHeightInput.clear();
-            houseHeightInput.sendKeys(String.valueOf(this.houseHeight));
-        } else {
-            WebElement dropdownArrow = driver.findElement(By.cssSelector("#fieldRow_FHouseHeight .input-style-dropdown .input-right-dropdown"));
-            dropdownArrow.click();
+        try {
+            int height = Integer.parseInt(this.houseHeight.trim());
+            int floor = Integer.parseInt(this.floor.trim());
+            if (height <= 0) return;
+            int relativeHeightIndex = height - floor + 1;
 
-            try {
-                WebElement option = wait.until(ExpectedConditions.elementToBeClickable(
-                        By.cssSelector("#fieldRow_FHouseHeight .dropdown-input-values li[data-value='" + relativeHeightIndex + "']")));
-                option.click();
-            } catch (TimeoutException e) {
+            if (relativeHeightIndex < 1 || relativeHeightIndex > 9) {
+                WebElement houseHeightInput = driver.findElement(By.name("FHouseHeight"));
+                houseHeightInput.clear();
+                houseHeightInput.sendKeys(String.valueOf(this.houseHeight));
+            } else {
+                WebElement dropdownArrow = driver.findElement(By.cssSelector("#fieldRow_FHouseHeight .input-style-dropdown .input-right-dropdown"));
+                dropdownArrow.click();
+
+                try {
+                    WebElement option = wait.until(ExpectedConditions.elementToBeClickable(
+                            By.cssSelector("#fieldRow_FHouseHeight .dropdown-input-values li[data-value='" + relativeHeightIndex + "']")));
+                    option.click();
+                } catch (TimeoutException e) {
+                }
             }
+        } catch (Exception e) {
         }
     }
 
 
     private void fillFloor() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        if (this.floor <= 0) return;
-        if (this.floor > 4) {
-            WebElement floorInput = driver.findElement(By.name("FFloor"));
-            floorInput.clear();
-            floorInput.sendKeys(String.valueOf(this.floor));
-        } else {
-            WebElement dropdownArrow = driver.findElement(By.cssSelector("#fieldRow_FFloor .input-style-dropdown .input-right-dropdown"));
-            dropdownArrow.click();
+        if (this.floor == null || this.floor.trim().isEmpty()) return;
+        try {
+            int floorInt = Integer.parseInt(this.floor.trim());
 
-            try {
-                WebElement option = wait.until(ExpectedConditions.elementToBeClickable(
-                        By.cssSelector("#fieldRow_FFloor .dropdown-input-values li[data-value='" + this.floor + "']")));
-                option.click();
-            } catch (TimeoutException e) {
+            if (floorInt <= 0) return;
+
+            if (floorInt > 4) {
+                WebElement floorInput = driver.findElement(By.name("FFloor"));
+                floorInput.clear();
+                floorInput.sendKeys(String.valueOf(this.floor));
+            } else {
+                WebElement dropdownArrow = driver.findElement(By.cssSelector("#fieldRow_FFloor .input-style-dropdown .input-right-dropdown"));
+                dropdownArrow.click();
+
+                try {
+                    WebElement option = wait.until(ExpectedConditions.elementToBeClickable(
+                            By.cssSelector("#fieldRow_FFloor .dropdown-input-values li[data-value='" + floorInt + "']")));
+                    option.click();
+                } catch (TimeoutException e) {
+                }
             }
+        } catch (Exception e) {
         }
     }
 
     private void fillRoomCount() {
-        if (this.roomCount <= 0) return;
-        if (this.roomCount > 4) {
-            WebElement input = driver.findElement(By.cssSelector("div[data-key='FRoomNum'] input[type='text']"));
-            input.clear();
-            input.sendKeys(String.valueOf(this.roomCount));
-        } else {
-            String roomCountStr = String.valueOf(this.roomCount);
-            WebElement button = driver.findElement(By.cssSelector("div[data-key='FRoomNum'] .input-button[data-value='" + roomCountStr + "']"));
-            button.click();
-        }
+        if (this.roomCount == null || this.roomCount.trim().isEmpty()) return;
+        try {
+            int roomCountInt = Integer.parseInt(this.roomCount.trim());
+            if (roomCountInt > 4) {
+                WebElement input = driver.findElement(By.cssSelector("div[data-key='FRoomNum'] input[type='text']"));
+                input.clear();
+                input.sendKeys(this.roomCount.trim());
+            } else {
+                WebElement button = driver.findElement(By.cssSelector("div[data-key='FRoomNum'] .input-button[data-value='" + this.roomCount.trim() + "']"));
+                button.click();
+            }
+        } catch (Exception e) {}
     }
 
     private void fillAreaSize() {

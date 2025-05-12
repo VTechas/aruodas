@@ -332,7 +332,6 @@ public class RealEstate {
         Random random = new Random();
         StringBuilder number = new StringBuilder();
 
-        // First digit should not be 0
         number.append(random.nextInt(9) + 1);
 
         for (int i = 1; i < length; i++) {

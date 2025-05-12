@@ -40,7 +40,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -60,7 +60,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -80,7 +80,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -100,7 +100,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -120,7 +120,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -140,7 +140,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -160,7 +160,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -180,7 +180,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -200,7 +200,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -220,7 +220,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -240,7 +240,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -260,7 +260,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -280,7 +280,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -300,7 +300,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -320,7 +320,7 @@ public class FlatTests {
                 "", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -340,7 +340,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -360,7 +360,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -380,7 +380,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -400,7 +400,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -420,7 +420,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", false, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -440,7 +440,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, false, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -460,7 +460,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 0, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -480,7 +480,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, false,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17", true, "92", 2, 1, 10, true, "1990",
+                "17", true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -500,7 +500,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{""},
-                "17",true,"92", 2, 1, 10, true, "1990",
+                "17",true,"92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio",new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -520,7 +520,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "",true,"92", 2, 1, 10, true, "1990",
+                "",true,"92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio",new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -540,7 +540,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",false, "92", 2, 1, 10, true, "1990",
+                "17",false, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -560,7 +560,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "", 2, 1, 10, true, "1990",
+                "17",true, "", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -580,7 +580,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 0, 1, 10, true, "1990",
+                "17",true, "92", "0", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -600,7 +600,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 0, 10, true, "1990",
+                "17",true, "92", "2", "", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -620,14 +620,13 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 0, true, "1990",
+                "17",true, "92", "2", "1", "", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
         driver.findElement(By.id("submitFormButton")).click();
         wait.until(ExpectedConditions.textToBePresentInElementLocated(
                 By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"), "Įveskite aukštų sk."));
-
         WebElement errorSpan = driver.findElement(By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"));
         String actual = errorSpan.getText().trim();
         Assert.assertEquals(actual, "Įveskite aukštų sk.");
@@ -642,7 +641,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, false, "1990",
+                "17",true, "92", "2", "1", "10", false, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -662,7 +661,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "",
+                "17",true, "92", "2", "1", "10", true, "",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -682,7 +681,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 false, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -702,7 +701,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1999",
+                "17",true, "92", "2", "1", "10", true, "1999",
                 true, "", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -722,7 +721,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -742,7 +741,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -762,7 +761,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{""},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -782,7 +781,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -802,7 +801,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -822,7 +821,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{""}, "A++");
         f.fill();
@@ -842,7 +841,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "");
         f.fill();
@@ -862,7 +861,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -882,7 +881,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -902,7 +901,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -922,7 +921,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -942,7 +941,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -962,7 +961,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -982,7 +981,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -1002,7 +1001,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -1022,12 +1021,13 @@ public class FlatTests {
                 RealEstate.generateRandomSpecialChars(6), "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
         driver.findElement(By.id("submitFormButton")).click();
-        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Blogas embed kodas')]")));
+        WebElement errorSpan = driver.findElement(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Blogas embed kodas')]"));
         String expected = "Blogas embed kodas";
         String actual = errorSpan.getText().trim();
         Assert.assertEquals(actual, expected);
@@ -1042,7 +1042,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", RealEstate.generateRandomSpecialChars(6), "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -1062,7 +1062,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", RealEstate.generateRandomSpecialChars(6),
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17", true, "92", 2, 1, 10, true, "1990",
+                "17", true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -1082,7 +1082,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 RealEstate.generateRandomSpecialChars(6), "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -1103,7 +1103,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", RealEstate.generateRandomSpecialChars(6), true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                "17",true, "92", 2, 1, 10, true, "1990",
+                "17",true, "92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -1124,7 +1124,7 @@ public class FlatTests {
                 "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
                 "+37064610102", "shelby@gmail.com", true, true, 1, true,
                 new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
-                RealEstate.generateRandomSpecialChars(6),true,"92", 2, 1, 10, true, "1990",
+                RealEstate.generateRandomSpecialChars(6),true,"92", "2", "1", "10", true, "1990",
                 true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
                 "Patalpa", "Poilsio",new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
         f.fill();
@@ -1134,6 +1134,1662 @@ public class FlatTests {
         Assert.assertEquals(actual, expected);
     }
 
+    @Test
+    public void specialCharactersAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, RealEstate.generateRandomSpecialChars(6), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Įveskite bendrą plotą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void specialCharactersRoomCountTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", RealEstate.generateRandomSpecialChars(6), "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Įveskite kambarių sk.";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void specialCharactersFloorTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", RealEstate.generateRandomSpecialChars(6), "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("#fieldRow_FFloor .col.has-error span.error-arrow"));
+        String expected = "Įveskite aukštą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void specialCharactersHouseHeightTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", RealEstate.generateRandomSpecialChars(6), true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(
+                By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"), "Įveskite aukštų sk."));
+        WebElement errorSpan = driver.findElement(By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"));
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, "Įveskite aukštų sk.");
+    }
+
+    @Test
+    public void specialCharactersYearsTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, RealEstate.generateRandomSpecialChars(6),
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Įveskite statybos metus')]"));
+        String expected = "Įveskite statybos metus";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void specialCharactersRenovatedYearsTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1999",
+                true, RealEstate.generateRandomSpecialChars(6), "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Klaida. Netinkami metai')]")));
+        WebElement errorSpan = driver.findElement(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Klaida. Netinkami metai')]"));
+        String expected = "Klaida. Netinkami metai";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharaterRegionTest() {
+        Flat f = new Flat(" ", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Pasirinkite savivaldybę";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterQuartalTest() {
+        Flat f = new Flat("Kaunas", "Kauno", " ", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Pasirinkite mikrorajoną";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterStreetTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", " ", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Pasirinkite gatvę";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", " ",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterRcNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, " ", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterNotesLtTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, " ",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterNotesEnTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                " ", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterNotesRuTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", " ",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterVideoTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                " ", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Blogas embed kodas')]")));
+        WebElement errorSpan = driver.findElement(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Blogas embed kodas')]"));
+        String expected = "Blogas embed kodas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterTour3dTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", " ", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Bloga nuoroda";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", " ",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Neteisinga kaina";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                " ", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", " ", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='email']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Nurodykite el. pašto adresą, kad vėliau galėtumėte redaguoti arba pašalinti skelbimą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterApartNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                " ",true,"92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio",new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        String expected = "Neteisingai įvesta reikšmė";
+        String actual = driver.findElement(By.xpath("//input[@name='FApartNum']/following::span[text()='Neteisingai įvesta reikšmė']")).getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, " ", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Įveskite bendrą plotą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterRoomCountTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", " ", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Įveskite kambarių sk.";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterFloorTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", " ", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("#fieldRow_FFloor .col.has-error span.error-arrow"));
+        String expected = "Įveskite aukštą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterHouseHeightTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", " ", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(
+                By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"), "Įveskite aukštų sk."));
+        WebElement errorSpan = driver.findElement(By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"));
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, "Įveskite aukštų sk.");
+    }
+
+    @Test
+    public void spaceCharacterYearsTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, " ",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Įveskite statybos metus')]"));
+        String expected = "Įveskite statybos metus";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterRenovatedYearsTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1999",
+                true, " ", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Klaida. Netinkami metai')]")));
+        WebElement errorSpan = driver.findElement(By.xpath("//span[contains(@class, 'error-arrow') and contains(text(), 'Klaida. Netinkami metai')]"));
+        String expected = "Klaida. Netinkami metai";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumberHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "-" + RealEstate.generateRandomNumbers(3),
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//input[@name='FHouseNum']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']"));
+        String expected = "Neteisingai įvesta reikšmė";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersRcNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "-" + RealEstate.generateRandomNumbers(3), true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//input[@name='RCNumber']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']"));
+        String expected = "Neteisingas numerio formatas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "-" + RealEstate.generateRandomNumbers(3),
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        String expected = "Neteisinga kaina";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "-" + RealEstate.generateRandomNumbers(3), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersApartNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "-" + RealEstate.generateRandomNumbers(3),true,"92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio",new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Neteisingai įvesta reikšmė";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "-" + RealEstate.generateRandomNumbers(3), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Įveskite bendrą plotą";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersRoomCountTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "-" + RealEstate.generateRandomNumbers(3), "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Įveskite kambarių sk.";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersFloorTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "-" + RealEstate.generateRandomNumbers(3), "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("#fieldRow_FFloor .col.has-error span.error-arrow"));
+        String expected = "Įveskite aukštą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersHouseHeightTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "-" + RealEstate.generateRandomNumbers(3), true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(
+                By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"), "Įveskite aukštų sk."));
+        WebElement errorSpan = driver.findElement(By.cssSelector("#fieldRow_FHouseHeight span.error-arrow"));
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, "Įveskite aukštų sk.");
+    }
+
+    @Test
+    public void negativeNumbersYearsTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "-1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Klaida. Netinkami metai";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void negativeNumbersRenovatedYearsTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1999",
+                true, "-2002", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Klaida. Netinkami metai";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void lettersOnlyHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", RealEstate.generateRandomLetters(5),
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//input[@name='FHouseNum']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']"));
+        String expected = "Neteisingai įvesta reikšmė";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void numbersWithOneLetterHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", RealEstate.generateRandomNumbers(2) + RealEstate.generateRandomLetters(1),
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void fourNumbersHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", RealEstate.generateRandomNumbers(4),
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void fiveNumbersHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", RealEstate.generateRandomNumbers(5),
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.xpath("//input[@name='FHouseNum']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")).getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void fourNumbersAndOneLetterHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", RealEstate.generateRandomNumbers(4) + RealEstate.generateRandomLetters(1),
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void fiveNumbersAndOneLetterHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", RealEstate.generateRandomNumbers(5) + RealEstate.generateRandomLetters(1),
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.xpath("//input[@name='FHouseNum']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")).getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void number0AsHouseNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "0",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void randomLettersRcNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, RealEstate.generateRandomLetters(10), true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Neteisingas numerio formatas";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random11NumbersRcNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, RealEstate.generateRandomNumbers(11), true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//input[@name='RCNumber']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']"));
+        String expected = "Neteisingas numerio formatas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random13NumbersRcNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, RealEstate.generateRandomNumbers(13), true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.xpath("//input[@name='RCNumber']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']"));
+        String expected = "Neteisingas numerio formatas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random16NumbersRcNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, RealEstate.generateRandomNumbers(16), true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random17NumbersRcNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, RealEstate.generateRandomNumbers(17), true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void randomLettersPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", RealEstate.generateRandomLetters(10),
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        String expected = "Neteisinga kaina";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void number0AsPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "0",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        String expected = "Neteisinga kaina";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void singleNumberNotZeroPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "5",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        String expected = "Kaina per maža";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random2NumbersPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", RealEstate.generateRandomNumbers(2),
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        String expected = "Kaina per maža";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random3NumbersPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", RealEstate.generateRandomNumbers(3),
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random256NumbersPriceTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", RealEstate.generateRandomNumbers(256),
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Neteisinga kaina";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random7NumbersWithLithuanianPrefixPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+370" + RealEstate.generateRandomNumbers(7), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='phone']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random9NumbersWithLithuanianPrefixPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+370" + RealEstate.generateRandomNumbers(9), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='phone']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random6NumbersWithPlusSymbolPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+" + RealEstate.generateRandomNumbers(6), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='phone']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random7NumbersWithPlusSymbolPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+" + RealEstate.generateRandomNumbers(7), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random16NumbersWithPlusSymbolPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+" + RealEstate.generateRandomNumbers(16), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random17NumbersWithPlusSymbolPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+" + RealEstate.generateRandomNumbers(17), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='phone']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void randomNumbersWithoutPlusSymbolPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                RealEstate.generateRandomNumbers(15), "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='phone']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void randomNumbersWithMultiplePlusSymbolsPhoneNumTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+" + RealEstate.generateRandomNumbers(10) + "+", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='phone']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Neteisingas telefono numeris";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void randomLettersAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, RealEstate.generateRandomLetters(10), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Įveskite bendrą plotą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void number0AsAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "0", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Įveskite bendrą plotą";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void singleNumberNot0AreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "5", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random7NumbersWithout0AtTheStartAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "1" + RealEstate.generateRandomNumbers(6), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random8NumbersWithout0AtTheStartAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "1" + RealEstate.generateRandomNumbers(7), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Neteisingai įvesta reikšmė";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void randomNumbersWith0AndACommaStartAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "0," + RealEstate.generateRandomNumbers(7), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Užsakyti";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random8NumbersWithout0AtTheStartAndWithACommaStartAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "1," + RealEstate.generateRandomNumbers(8), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random9NumbersWithout0AtTheStartAndWithACommaStartAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "1," + RealEstate.generateRandomNumbers(9), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = driver.findElement(By.cssSelector("li.has-error span.error-arrow"));
+        String expected = "Neteisingai įvesta reikšmė";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void randomNumbersWithMultipleCommasAreaSizeTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", "shelby@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, ("1," + RealEstate.generateRandomNumbers(2) + "," + RealEstate.generateRandomNumbers(2)), "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("li.has-error span.error-arrow")));
+        String expected = "Neteisingai įvesta reikšmė";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void noAtSymbolEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(8) + "gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='email']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Blogas el. pašto adresas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void multipleAtSymbolsEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(4) + "@" + RealEstate.generateRandomLetters(4) + "@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='email']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Blogas el. pašto adresas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void subdomainEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(10) + "@gmail.subdomain.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void invalidDomainEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(8) + "gmail", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='email']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Blogas el. pašto adresas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void spaceCharacterWithinEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(8) + " @gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='email']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Blogas el. pašto adresas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random255CharactersEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(245) + "@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random256CharactersEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(247) + "@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='email']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Blogas el. pašto adresas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void singleCharacterInDomainAfterDotEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(10) + "@gmail." + RealEstate.generateRandomLetters(1), true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        WebElement errorSpan = wait.until(ExpectedConditions.visibilityOfElementLocated(
+                By.xpath("//input[@name='email']/ancestor::li[contains(@class,'has-error')]//span[@class='error-arrow']")));
+        String expected = "Blogas el. pašto adresas";
+        String actual = errorSpan.getText().trim();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void random2CharactersInDomainAfterDotEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(10) + "@gmail." + RealEstate.generateRandomLetters(2), true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Test
+    public void singleCharacterEmailTest() {
+        Flat f = new Flat("Kaunas", "Kauno", "Silainiai", "Aleksoto", "22",
+                true, "1234-1234-1234", true, true, true, "Belekas butas silainiuose",
+                "For sale", "Paruski ne bum bum",
+                new String[]{"C:\\Users\\rimsa\\IdeaProjects\\aruodas\\pics\\13.jpg"},
+                "https://www.youtube.com/watch?v=5EpyN_6dqyk", "https://www.google.com/maps", "92000",
+                "+37064610102", RealEstate.generateRandomLetters(1) + "@gmail.com", true, true, 1, true,
+                new String[]{"atskiras iejimas", "butas palepeje", "sandeliukas", "sildomos grindys", "Vonia", "Kodine laiptines spyna"},
+                "17",true, "92", "2", "1", "10", true, "1990",
+                true, "1999", "timber", "full", new String[]{"Centrinis", "Elektra", "Kita", "saules energija"},
+                "Patalpa", "Poilsio", new String[]{"siaurė", "Vakarai", "Pietus", "Rytai"}, "A++");
+        f.fill();
+        driver.findElement(By.id("submitFormButton")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("btPlanChooseOrder")));
+        String expected = "Užsakyti";
+        String actual = driver.findElement(By.id("btPlanChooseOrder")).getText();
+        Assert.assertEquals(actual, expected);
+    }
 
 
 }

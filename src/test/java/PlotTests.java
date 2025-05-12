@@ -1343,7 +1343,7 @@ public class PlotTests {
     }
 
     @Test
-    public void randomTwoNumbersPriceTest() {
+    public void random2NumbersPriceTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1435,7 +1435,7 @@ public class PlotTests {
     }
 
     @Test
-    public void random6NumbersPhoneNumTest() {
+    public void random6NumbersWithPlusSymbolPhoneNumTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1454,7 +1454,7 @@ public class PlotTests {
     }
 
     @Test
-    public void random7NumbersPhoneNumTest() {
+    public void random7NumbersWithPlusSymbolPhoneNumTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1472,7 +1472,7 @@ public class PlotTests {
     }
 
     @Test
-    public void random16NumbersPhoneNumTest() {
+    public void random16NumbersWithPlusSymbolPhoneNumTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1490,7 +1490,7 @@ public class PlotTests {
     }
 
     @Test
-    public void random17NumbersPhoneNumTest() {
+    public void random17NumbersWithPlusSymbolPhoneNumTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1509,7 +1509,7 @@ public class PlotTests {
     }
 
     @Test
-    public void randomNumbersWithoutPlusSignPhoneNumTest() {
+    public void randomNumbersWithoutPlusSymbolPhoneNumTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1528,7 +1528,7 @@ public class PlotTests {
     }
 
     @Test
-    public void randomNumbersWithMultiplePlusSignsPhoneNumTest() {
+    public void randomNumbersWithMultiplePlusSymbolsPhoneNumTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1655,7 +1655,7 @@ public class PlotTests {
     }
 
     @Test
-    public void random8NumbersWithout0AtTheStartAndACommaAreaSizeTest() {
+    public void random8NumbersWithout0AtTheStartAndWithACommaStartAreaSizeTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
@@ -1691,7 +1691,7 @@ public class PlotTests {
     }
 
     @Test
-    public void randomNumbersMultipleCommasAreaSizeTest() {
+    public void randomNumbersWithMultipleCommasAreaSizeTest() {
         Plot p = new Plot("Vilnius", "Vilniaus", "Bajorai", "Paeglines sodu 5",
                 "15", true, "1234-1234-1234", true, true,
                 false, "Parduodu sklypa", "Property for sale", "Paruski ne bum bum",
